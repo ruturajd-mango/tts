@@ -44,7 +44,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>.freeze, [">= 0"])
-      s.add_development_dependency(%q<bundler>.freeze, ["~> 2.0"])
+      s.add_development_dependency(%q<bundler>.freeze, ["~> 2.6.4"])
       s.add_development_dependency(%q<jeweler>.freeze, [">= 0"])
     else
       s.add_dependency(%q<rspec>.freeze, [">= 0"])
